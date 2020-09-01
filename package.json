@@ -1,0 +1,20 @@
+{
+  "name": "dotenv-window-inject",
+  "version": "1.0.0",
+  "description": "Injects dotenv vars into the window object",
+  "main": "injectDotEnv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "window",
+    "variables"
+  ],
+  "author": "John Cudd",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
