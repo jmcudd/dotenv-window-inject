@@ -10,12 +10,12 @@ time, particularly when running a dockerized environment with compiled assets.
 import {injectDotEnv} from 'dotenv-window-inject';
 
 injectDotEnv(['BASEURL', 'VAR2', 'VAR3'], 'env', 'APP_')
+````
 
-// Outputs:
-/*
+# Output
+
+```
 <script>window.env={BASEURL:'somevalue', VAR2:'somevalue', VAR3:'somevalue',};</script>
-*/
-
 ```
 
 
